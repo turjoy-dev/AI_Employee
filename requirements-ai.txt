@@ -1,0 +1,24 @@
+# AI Employee — Optional Advanced Dependencies (Phase 2 & Beyond)
+# Install selectively using:
+# uv pip install <package> --python .\venv\Scripts\python.exe
+
+# Voice & Real-time WebRTC Agents
+# livekit-agents
+# livekit-plugins-deepgram
+# livekit-plugins-elevenlabs
+# livekit-plugins-silero
+
+# Phone Calling & Telephony
+# vocode-api
+
+# LLM Observability & Tracing
+# langfuse
+
+# Knowledge Base & RAG
+# llama-index-core
+# llama-index-embeddings-gemini
+# llama-index-llms-gemini
+
+# RAG Evaluation
+# ragas
+# datasets
