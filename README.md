@@ -20,6 +20,12 @@ An end-to-end, Dockerized **Real-Time Voice AI Receptionist & Autonomous CRM** p
 
 ---
 
+## Dashboard Preview
+
+![AI Employee CRM Dashboard](docs/dashboard.png)
+
+---
+
 ## Architecture Diagram
 
 ```mermaid
@@ -119,6 +125,8 @@ AI_Employee/
 │       ├── components/           # CallButton (Web Audio + WS), FollowUpModal, UI primitives
 │       ├── lib/                  # Axios client with JWT interceptors
 │       └── store/                # Zustand auth store
+├── docs/
+│   └── dashboard.png             # CRM dashboard screenshot
 ├── knowledge_base/               # Business FAQ source documents
 └── tests/                        # Pytest unit and integration test suite
 ```
